@@ -34,8 +34,11 @@ void main() {
       printf("%d / %d = %d\n", a,b,a/b);
       break;
     }
-    
-    //후우 예림쨩 하야끄 종료 코딩코딩~~~~~~~~~~어서어서~~~~~~~~~    
+        
+    case 5:{
+       printf("finish...");
+       exit(0);
+      }  
         
     default : printf("Wrong number!\n");
               break;
