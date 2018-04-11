@@ -36,7 +36,7 @@ void main() {
     }
         
     case 5:{
-       printf("finish...");
+       printf("finish...\n");
        exit(0);
       }  
         
