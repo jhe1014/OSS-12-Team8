@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main() {
-  int menu;
+  int menu,a,b;
   
   printf("============= Calculator ===============\n");
   
@@ -11,7 +11,17 @@ void main() {
     scanf("%d", &menu);
     
     switch(menu) {
-    case 1 :
+    case 1 :{
+    scanf("%d %d", &a,&b);
+    printf("%d"+"%d"="%d\n",a,b,a+b);
+    break;
+    }
+        
+    case 2 :{
+    scanf("%d %d", &a,&b);
+    printf("%d"-"%d"="%d\n",a,b,a-b);
+    break;
+    }
     
     default : printf("Wrong number!\n");
               break;
